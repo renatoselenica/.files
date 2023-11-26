@@ -1,0 +1,223 @@
+{
+  "explorer.openEditors.visible": 1,
+  "editor.fontFamily": "Jetbrains Mono",
+  "terminal.integrated.fontFamily": "Jetbrains Mono",
+  "editor.fontSize": 22,
+  "editor.lineHeight": 35,
+  "workbench.editor.tabSizing": "shrink",
+  "html.format.enable": true,
+  "html.format.preserveNewLines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.fontWeight": "400",
+  "editor.cursorBlinking": "solid",
+  "editor.colorDecorators": true,
+  "workbench.sideBar.location": "right",
+  "editor.renderWhitespace": "none",
+  "workbench.startupEditor": "newUntitledFile",
+  "extensions.ignoreRecommendations": false,
+  "files.exclude": {
+    "/._": true,
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.next": false,
+    "**/.svn": true,
+    "**/CVS": true
+  },
+  "workbench.editor.tabCloseButton": "off",
+  "editor.snippetSuggestions": "top",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.formatOnSave": false,
+  "telemetry.telemetryLevel": "off",
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.activeBackground1": "#acb21c"
+  },
+  "files.defaultLanguage": "markdown",
+  "html.autoClosingTags": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "editor.suggestSelection": "first",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.autoReveal": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "css.validate": false,
+  "css.lint.unknownAtRules": "ignore",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.linkedEditing": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.inlineSuggest.enabled": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "js/ts.implicitProjectConfig.checkJs": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.enabled": false,
+  "zenMode.centerLayout": false,
+  "editor.lineNumbers": "relative",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.replaceWithRegister": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    },
+    {
+      "before": ["s"],
+      "after": ["<leader>", "<leader>", "s"]
+    },
+    {
+      "before": ["g", "H"],
+      "commands": ["editor.action.referenceSearch.trigger"],
+      "silent": true
+    },
+    {
+      "before": ["g", "O"],
+      "commands": ["workbench.action.gotoSymbol"],
+      "silent": true
+    },
+    {
+      "before": ["<C-w>", "g", "d"],
+      "commands": ["editor.action.revealDefinitionAside"],
+      "silent": true
+    },
+    {
+      "before": ["<C-w>", "l"],
+      "commands": ["workbench.action.toggleEditorGroupLock"],
+      "silent": true
+    },
+    {
+      "before": ["<leader>", "l", "f"],
+      "commands": ["editor.action.formatDocument"],
+      "silent": true
+    },
+    {
+      "before": ["<C-w>", "H"],
+      "commands": ["workbench.action.moveActiveEditorGroupLeft"],
+      "silent": true
+    },
+    {
+      "before": ["<C-w>", "J"],
+      "commands": ["workbench.action.moveActiveEditorGroupDown"],
+      "silent": true
+    },
+    {
+      "before": ["<C-w>", "K"],
+      "commands": ["workbench.action.moveActiveEditorGroupUp"],
+      "silent": true
+    },
+    {
+      "before": ["<C-w>", "L"],
+      "commands": ["workbench.action.moveActiveEditorGroupRight"],
+      "silent": true
+    },
+    {
+      "before": ["<C-w>", "_"],
+      "commands": ["workbench.action.minimizeOtherEditors"],
+      "silent": true
+    },
+    {
+      "before": ["leader", "w"],
+      "commands": ["workbench.action.files.saveWithoutFormatting"]
+    },
+    {
+      "before": ["u"],
+      "after": [],
+      "commands": [
+        {
+          "command": "undo"
+        }
+      ]
+    },
+    {
+      "before": ["<C-r>"],
+      "after": [],
+      "commands": [
+        {
+          "command": "redo"
+        }
+      ]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "workbench.iconTheme": null,
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.lineHeight": 1.2,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.guides.indentation": false,
+  "typescript.format.enable": false,
+  "javascript.format.enable": false,
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  "editor.suggest.matchOnWordStartOnly": false,
+  "editor.scrollBeyondLastLine": false,
+  "editor.inlayHints.padding": true,
+  "terminal.integrated.inheritEnv": true,
+  "terminal.integrated.shellIntegration.enabled": true,
+  "window.autoDetectColorScheme": true,
+  "editor.stickyScroll.enabled": true,
+  "breadcrumbs.enabled": false,
+  "workbench.editor.showTabs": "multiple",
+  "eslint.format.enable": true,
+  "terminal.integrated.macOptionClickForcesSelection": true,
+  "workbench.layoutControl.enabled": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": -1,
+  "workbench.activityBar.location": "top",
+  "window.nativeTabs": false,
+  "window.commandCenter": false,
+  "workbench.colorTheme": "Flexoki Light"
+}
