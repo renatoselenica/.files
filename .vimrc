@@ -1,7 +1,5 @@
-syntax on
 set number			" Show line numbers
 set linebreak			" Break lines at word (requires Wrap lines)
-set showbreak=+++		" Wrap-broken line prefix
 set textwidth=100		" Line wrap (number of cols)
 set showmatch			" Highlight matching brace
 set hlsearch			" Highlight all search results
@@ -20,3 +18,4 @@ set autochdir			" Change working directory to open buffer
 set undolevels=1000		" Number of undo levels
 set backspace=indent,eol,start	" Backspace behaviour
 set relativenumber
+set rtp+=/opt/homebrew/opt/fzf
