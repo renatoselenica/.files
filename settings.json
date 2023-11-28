@@ -219,5 +219,7 @@
   "workbench.activityBar.location": "top",
   "window.nativeTabs": false,
   "window.commandCenter": false,
-  "workbench.colorTheme": "Flexoki Light"
+  "workbench.preferredLightColorTheme": "Tokyo Night Light",
+  "workbench.preferredDarkColorTheme": "Tokyo Night",
+  "workbench.colorTheme": "Tokyo Night Light"
 }

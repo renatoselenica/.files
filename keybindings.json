@@ -5,11 +5,6 @@
     "command": "workbench.action.terminal.toggleTerminal",
   },
   {
-    "key": "f12",
-    "command": "-editor.action.revealDefinition",
-    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
-  },
-  {
     "key": "ctrl+h",
     "command": "workbench.action.navigateLeft"
   },
@@ -64,242 +59,83 @@
     "key": "ctrl+shift+i",
     "command": "workbench.action.increaseViewSize"
   },
-  // // #region Layout mappings
-  // {
-  //   "key": "ctrl+-",
-  //   "command": "workbench.action.togglePanel"
-  // },
-  // {
-  //   "key": "ctrl+shift+-",
-  //   "command": "workbench.action.focusStatusBar"
-  // },
   {
     "key": "ctrl+=",
     "command": "notifications.focusToasts"
   },
-  // {
-  //   "key": "ctrl+\\",
-  //   "command": "workbench.action.toggleAuxiliaryBar"
-  // },
-  // // #endregion
-  // // #region List search mappings
-  // {
-  //   "key": "ctrl+f",
-  //   "command": "-list.find",
-  //   "when": "listFocus && listSupportsFind"
-  // },
-  // {
-  //   "key": "/",
-  //   "command": "list.find",
-  //   "when": "listFocus && listSupportsFind"
-  // },
-  // // #endregion
-  // // #region Window navigation mappings
-  // {
-  //   "key": "ctrl+h",
-  //   "command": "workbench.action.navigateLeft"
-  // },
-  // {
-  //   "key": "ctrl+l",
-  //   "command": "workbench.action.navigateRight",
-  //   "when": "!terminalFocus"
-  // },
-  // {
-  //   "key": "ctrl+k",
-  //   "command": "workbench.action.navigateUp"
-  // },
-  // {
-  //   "key": "ctrl+j",
-  //   "command": "workbench.action.navigateDown"
-  // },
-  // // #endregion
-  // // #region Focus movement mappings
-  // {
-  //   "key": "h",
-  //   "command": "workbench.statusBar.focusPrevious",
-  //   "when": "statusBarFocused"
-  // },
-  // {
-  //   "key": "l",
-  //   "command": "workbench.statusBar.focusNext",
-  //   "when": "statusBarFocused"
-  // },
-  // {
-  //   "key": "k",
-  //   "command": "workbench.statusBar.focusPrevious",
-  //   "when": "statusBarFocused"
-  // },
-  // {
-  //   "key": "j",
-  //   "command": "workbench.statusBar.focusNext",
-  //   "when": "statusBarFocused"
-  // },
-  // {
-  //   "key": "ctrl+k",
-  //   "command": "workbench.action.focusPreviousPart",
-  //   "when": "statusBarFocused"
-  // },
-  // // #endregion
-  // // #region Editor splits mappings
-  // {
-  //   "key": "ctrl+w l",
-  //   "command": "workbench.action.toggleEditorGroupLock",
-  //   "when": "!editorFocus"
-  // },
-  // {
-  //   "key": "ctrl+w s",
-  //   "command": "workbench.action.splitEditorDown",
-  //   "when": "!editorFocus"
-  // },
-  // {
-  //   "key": "ctrl+w v",
-  //   "command": "workbench.action.splitEditor",
-  //   "when": "!editorFocus"
-  // },
-  // {
-  //   "key": "ctrl+w q",
-  //   "command": "workbench.action.closeActiveEditor",
-  //   "when": "!editorFocus"
-  // },
-  // {
-  //   "key": "ctrl+w q",
-  //   "command": "workbench.action.closeGroup",
-  //   "when": "!editorFocus && activeEditorGroupEmpty && multipleEditorGroups"
-  // },
-  // {
-  //   "key": "ctrl+w shift+h",
-  //   "command": "workbench.action.moveActiveEditorGroupLeft",
-  //   "when": "!editorFocus"
-  // },
-  // {
-  //   "key": "ctrl+w shift+l",
-  //   "command": "workbench.action.moveActiveEditorGroupRight",
-  //   "when": "!editorFocus"
-  // },
-  // {
-  //   "key": "ctrl+w shift+k",
-  //   "command": "workbench.action.moveActiveEditorGroupUp",
-  //   "when": "!editorFocus"
-  // },
-  // {
-  //   "key": "ctrl+w shift+j",
-  //   "command": "workbench.action.moveActiveEditorGroupDown",
-  //   "when": "!editorFocus"
-  // },
-  // {
-  //   "key": "ctrl+w shift+-",
-  //   "command": "workbench.action.minimizeOtherEditors",
-  //   "when": "!editorFocus"
-  // },
-  // {
-  //   "key": "ctrl+w =",
-  //   "command": "workbench.action.evenEditorWidths",
-  //   "when": "!editorFocus"
-  // },
-  // {
-  //   "key": "ctrl+w shift+.",
-  //   "command": "workbench.action.increaseViewWidth",
-  //   "when": "!editorFocus"
-  // },
-  // {
-  //   "key": "ctrl+w shift+,",
-  //   "command": "workbench.action.decreaseViewWidth",
-  //   "when": "!editorFocus"
-  // },
-  // {
-  //   "key": "ctrl+w shift+=",
-  //   "command": "workbench.action.increaseViewHeight",
-  //   "when": "!editorFocus"
-  // },
-  // {
-  //   "key": "ctrl+w -",
-  //   "command": "workbench.action.decreaseViewHeight",
-  //   "when": "!editorFocus"
-  // },
   {
     "key": "ctrl+w z",
     "command": "workbench.action.toggleMaximizedPanel",
     "when": "terminalFocus"
   },
-  // // #endregion
-  // // #region List navigation mappings
-  // {
-  //   "key": "ctrl+k",
-  //   "command": "selectPrevSuggestion",
-  //   "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
-  // },
-  // {
-  //   "key": "ctrl+j",
-  //   "command": "selectNextSuggestion",
-  //   "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
-  // },
-  // {
-  //   "key": "ctrl+k",
-  //   "command": "workbench.action.quickOpenSelectPrevious",
-  //   "when": "inQuickOpen"
-  // },
-  // {
-  //   "key": "ctrl+j",
-  //   "command": "workbench.action.quickOpenSelectNext",
-  //   "when": "inQuickOpen"
-  // },
-  // {
-  //   "key": "ctrl+k",
-  //   "when": "codeActionMenuVisible",
-  //   "command": "selectPrevCodeAction"
-  // },
-  // {
-  //   "key": "ctrl+j",
-  //   "when": "codeActionMenuVisible",
-  //   "command": "selectNextCodeAction"
-  // },
-  // // #endregion
-  // // #region Files explorer mappings
-  // {
-  //   "key": "d",
-  //   "command": "deleteFile",
-  //   "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
-  // },
-  // {
-  //   "key": "r",
-  //   "command": "renameFile",
-  //   "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
-  // },
-  // {
-  //   "key": "y",
-  //   "command": "filesExplorer.copy",
-  //   "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
-  // },
-  // {
-  //   "key": "x",
-  //   "command": "filesExplorer.cut",
-  //   "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
-  // },
-  // {
-  //   "key": "p",
-  //   "command": "filesExplorer.paste",
-  //   "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
-  // },
-  // {
-  //   "key": "v",
-  //   "command": "explorer.openToSide",
-  //   "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
-  // },
-  // {
-  //   "key": "a",
-  //   "command": "explorer.newFile",
-  //   "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
-  // },
-  // {
-  //   "key": "shift+a",
-  //   "command": "explorer.newFolder",
-  //   "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
-  // },
-  // // #endregion
-  // // #region Remove mappings
-  // {
-  //   "key": "ctrl+shift+=",
-  //   "command": "-workbench.action.zoomIn"
-  // }
-  // // #endregion
+  {
+    "key": "ctrl+k",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.quickOpenSelectPrevious",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.quickOpenSelectNext",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+k",
+    "when": "codeActionMenuVisible",
+    "command": "selectPrevCodeAction"
+  },
+  {
+    "key": "ctrl+j",
+    "when": "codeActionMenuVisible",
+    "command": "selectNextCodeAction"
+  },
+  {
+    "key": "d",
+    "command": "deleteFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "r",
+    "command": "renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "y",
+    "command": "filesExplorer.copy",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+  },
+  {
+    "key": "x",
+    "command": "filesExplorer.cut",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "p",
+    "command": "filesExplorer.paste",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "v",
+    "command": "explorer.openToSide",
+    "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+  },
+  {
+    "key": "a",
+    "command": "explorer.newFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "shift+a",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
 ]
