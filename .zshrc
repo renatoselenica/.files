@@ -1,6 +1,14 @@
-export ZSH="$HOME/.oh-my-zsh"
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
 
-ZSH_THEME="refined"
+export ZSH="$HOME/.oh-my-zsh"
+DISABLE_AUTO_UPDATE=true
+ZSH_AUTOSUGGEST_MANUAL_REBIND=1
+ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(
   git
   node
@@ -23,6 +31,8 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home"
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+export PATH="/Users/renatoselenica/git-fuzzy/bin:$PATH"
 # aliases
 alias lg=lazygit
 alias ld=lazydocker
@@ -49,4 +59,6 @@ if [ -f '/Users/renatoselenica/Projects/rounds/google-cloud-sdk/path.zsh.inc' ];
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/renatoselenica/Projects/rounds/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/renatoselenica/Projects/rounds/google-cloud-sdk/completion.zsh.inc'; fi
-export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

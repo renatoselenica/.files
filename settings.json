@@ -2,7 +2,7 @@
   "explorer.openEditors.visible": 1,
   "editor.fontFamily": "Jetbrains Mono",
   "terminal.integrated.fontFamily": "Jetbrains Mono",
-  "editor.fontSize": 22,
+  "editor.fontSize": 20,
   "editor.lineHeight": 35,
   "workbench.editor.tabSizing": "shrink",
   "html.format.enable": true,
@@ -76,7 +76,6 @@
   },
   "editor.minimap.renderCharacters": false,
   "editor.minimap.enabled": false,
-  "zenMode.centerLayout": false,
   "editor.lineNumbers": "relative",
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -215,11 +214,12 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.zoomLevel": -1,
   "workbench.activityBar.location": "top",
   "window.nativeTabs": false,
   "window.commandCenter": false,
-  "workbench.preferredLightColorTheme": "Tokyo Night Light",
-  "workbench.preferredDarkColorTheme": "Tokyo Night",
-  "workbench.colorTheme": "Tokyo Night Light"
+  "workbench.preferredLightColorTheme": "Nord Light",
+  "workbench.preferredDarkColorTheme": "Material Theme Darker High Contrast",
+  "workbench.statusBar.visible": false,
+  "window.zoomLevel": -1,
+  "workbench.colorTheme": "Material Theme Darker High Contrast"
 }
