@@ -19,5 +19,7 @@ set ruler			" Show row and column ruler information
 set autochdir			" Change working directory to open buffer
 set undolevels=1000		" Number of undo levels
 set backspace=indent,eol,start	" Backspace behaviour
+set undodir=~/.vim/undo-dir
+set undofile
 set relativenumber
 set rtp+=/opt/homebrew/opt/fzf

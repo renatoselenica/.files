@@ -3,7 +3,7 @@
   "editor.fontFamily": "Jetbrains Mono",
   "terminal.integrated.fontFamily": "Jetbrains Mono",
   "editor.fontSize": 20,
-  "editor.lineHeight": 35,
+  "editor.lineHeight": 34,
   "workbench.editor.tabSizing": "shrink",
   "html.format.enable": true,
   "html.format.preserveNewLines": true,
@@ -33,7 +33,8 @@
   "editor.formatOnSave": false,
   "telemetry.telemetryLevel": "off",
   "workbench.colorCustomizations": {
-    "editorIndentGuide.activeBackground1": "#acb21c"
+    "editorIndentGuide.activeBackground1": "#acb21c",
+    "[Material Theme Darker High Contrast]": {}
   },
   "files.defaultLanguage": "markdown",
   "html.autoClosingTags": false,
@@ -207,19 +208,19 @@
   "window.autoDetectColorScheme": true,
   "editor.stickyScroll.enabled": true,
   "breadcrumbs.enabled": false,
-  "workbench.editor.showTabs": "multiple",
+  "workbench.editor.showTabs": "none",
   "eslint.format.enable": true,
   "terminal.integrated.macOptionClickForcesSelection": true,
-  "workbench.layoutControl.enabled": false,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.activityBar.location": "top",
   "window.nativeTabs": false,
-  "window.commandCenter": false,
-  "workbench.preferredLightColorTheme": "Nord Light",
+  "workbench.preferredLightColorTheme": "Tokyo Night Light",
   "workbench.preferredDarkColorTheme": "Material Theme Darker High Contrast",
-  "workbench.statusBar.visible": false,
   "window.zoomLevel": -1,
-  "workbench.colorTheme": "Material Theme Darker High Contrast"
+  "workbench.layoutControl.enabled": false,
+  "workbench.colorTheme": "Material Theme Darker High Contrast",
+  "workbench.statusBar.visible": false,
+  "editor.semanticHighlighting.enabled": false
 }

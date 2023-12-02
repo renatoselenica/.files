@@ -1,8 +1,7 @@
-// Place your key bindings in this file to override the defaultsauto[]
 [
   {
     "key": "ctrl+\\",
-    "command": "workbench.action.terminal.toggleTerminal",
+    "command": "workbench.action.terminal.toggleTerminal"
   },
   {
     "key": "ctrl+h",
@@ -137,5 +136,5 @@
     "key": "shift+a",
     "command": "explorer.newFolder",
     "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
-  },
+  }
 ]
