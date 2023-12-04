@@ -3,7 +3,7 @@
   "editor.fontFamily": "Jetbrains Mono",
   "terminal.integrated.fontFamily": "Jetbrains Mono",
   "editor.fontSize": 20,
-  "editor.lineHeight": 34,
+  "editor.lineHeight": 30,
   "workbench.editor.tabSizing": "shrink",
   "html.format.enable": true,
   "html.format.preserveNewLines": true,
@@ -195,8 +195,6 @@
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "editor.guides.indentation": false,
-  "typescript.format.enable": false,
-  "javascript.format.enable": false,
   "extensions.experimental.affinity": {
     "vscodevim.vim": 1
   },
@@ -215,12 +213,11 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.activityBar.location": "top",
-  "window.nativeTabs": false,
   "workbench.preferredLightColorTheme": "Tokyo Night Light",
   "workbench.preferredDarkColorTheme": "Material Theme Darker High Contrast",
   "window.zoomLevel": -1,
   "workbench.layoutControl.enabled": false,
-  "workbench.colorTheme": "Material Theme Darker High Contrast",
-  "workbench.statusBar.visible": false,
-  "editor.semanticHighlighting.enabled": false
+  "editor.semanticHighlighting.enabled": false,
+  "workbench.colorTheme": "Tokyo Night Light",
+  "deno.enable": false
 }
