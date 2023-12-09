@@ -1,0 +1,62 @@
+#!/bin/bash
+
+# Check if Homebrew is installed, if not, install it
+if ! command -v brew &> /dev/null
+then
+    echo "Installing Homebrew..."
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
+
+# Update Homebrew
+brew update
+
+# Install packages available through Homebrew
+brew_packages=(
+    "lazygit"
+    "lazydocker"
+    "fzf"
+    "tmux"
+    "ripgrep"
+    "bat"
+    "fd"
+    "tree"
+    "jq"
+)
+
+for package in "${brew_packages[@]}"; do
+    brew install $package
+done
+
+# Install git-fuzzy (not available through Homebrew)
+git clone https://github.com/bigH/git-fuzzy.git ~/.git-fuzzy
+
+# Install Oh My Zsh
+if [ ! -d "$HOME/.oh-my-zsh" ]; then
+    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+fi
+
+# Install Powerlevel10k theme for Oh My Zsh
+if [ ! -d "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k" ]; then
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+fi
+
+# Install zsh-autosuggestions
+if [ ! -d "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions" ]; then
+    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+fi
+
+# Install zsh-syntax-highlighting
+if [ ! -d "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting" ]; then
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+fi
+
+echo "Installation completed."
+
+dotfiles_dir="$HOME/.dotfiles"
+
+# Create symlinks
+ln -sf $dotfiles_dir/.vimrc $HOME/.vimrc
+ln -sf $dotfiles_dir/.zshrc $HOME/.zshrc
+ln -sf $dotfiles_dir/.tmux.conf $HOME/.tmux.conf
+
+echo "Environment setup completed."

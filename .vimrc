@@ -1,5 +1,3 @@
-syntax on
-colorscheme default
 set number			" Show line numbers
 set linebreak			" Break lines at word (requires Wrap lines)
 set textwidth=100		" Line wrap (number of cols)

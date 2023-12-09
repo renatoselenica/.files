@@ -27,15 +27,10 @@
     "**/.svn": true,
     "**/CVS": true
   },
-  "workbench.editor.tabCloseButton": "off",
   "editor.snippetSuggestions": "top",
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "editor.formatOnSave": false,
   "telemetry.telemetryLevel": "off",
-  "workbench.colorCustomizations": {
-    "editorIndentGuide.activeBackground1": "#acb21c",
-    "[Material Theme Darker High Contrast]": {}
-  },
   "files.defaultLanguage": "markdown",
   "html.autoClosingTags": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -61,7 +56,6 @@
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "diffEditor.ignoreTrimWhitespace": false,
   "editor.linkedEditing": true,
   "explorer.confirmDragAndDrop": false,
   "editor.inlineSuggest.enabled": true,
@@ -205,8 +199,6 @@
   "terminal.integrated.shellIntegration.enabled": true,
   "window.autoDetectColorScheme": true,
   "editor.stickyScroll.enabled": true,
-  "breadcrumbs.enabled": false,
-  "workbench.editor.showTabs": "none",
   "eslint.format.enable": true,
   "terminal.integrated.macOptionClickForcesSelection": true,
   "[typescriptreact]": {
@@ -214,10 +206,19 @@
   },
   "workbench.activityBar.location": "top",
   "workbench.preferredLightColorTheme": "Tokyo Night Light",
-  "workbench.preferredDarkColorTheme": "Material Theme Darker High Contrast",
+  "workbench.preferredDarkColorTheme": "GitHub Dark",
   "window.zoomLevel": -1,
   "workbench.layoutControl.enabled": false,
-  "editor.semanticHighlighting.enabled": false,
-  "workbench.colorTheme": "Tokyo Night Light",
-  "deno.enable": false
+  "editor.semanticHighlighting.enabled": true,
+  "deno.enable": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.tabActionCloseVisibility": false,
+  "workbench.editor.showTabs": "none",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.occurrencesHighlight": "multiFile",
+  "scm.showOutgoingChanges": "always",
+  "scm.showIncomingChanges": "always",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "editor.inlayHints.enabled": "on",
+  "workbench.colorTheme": "GitHub Dark"
 }
