@@ -15,6 +15,7 @@
   {
     "key": "ctrl+p",
     "command": "workbench.action.tasks.toggleProblems",
+    "when": "editorTextFocus || panelFocus && activePanel == 'workbench.panel.markers'"
   },
   {
     "key": "ctrl+\\",
