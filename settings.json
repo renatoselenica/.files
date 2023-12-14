@@ -51,7 +51,6 @@
   "editor.quickSuggestions": {
     "strings": true
   },
-  "css.validate": false,
   "css.lint.unknownAtRules": "ignore",
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -205,7 +204,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.activityBar.location": "top",
-  "workbench.preferredLightColorTheme": "Tokyo Night Light",
+  "workbench.preferredLightColorTheme": "GitHub Light",
   "workbench.preferredDarkColorTheme": "GitHub Dark",
   "window.zoomLevel": -1,
   "workbench.layoutControl.enabled": false,
@@ -220,5 +219,6 @@
   "scm.showIncomingChanges": "always",
   "workbench.editor.editorActionsLocation": "hidden",
   "editor.inlayHints.enabled": "on",
-  "workbench.colorTheme": "GitHub Dark"
+  "workbench.colorTheme": "GitHub Light",
+  "typescript.locale": "en"
 }

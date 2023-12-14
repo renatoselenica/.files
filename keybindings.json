@@ -5,6 +5,18 @@
     "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
   },
   {
+    "key": "ctrl+i",
+    "command": "editor.action.sourceAction",
+    "args": {
+      "kind": "source.addMissingImports",
+      "apply": "first"
+    }
+  },
+  {
+    "key": "ctrl+w t",
+    "command": "workbench.action.tasks.toggleProblems",
+  },
+  {
     "key": "ctrl+\\",
     "command": "workbench.action.terminal.toggleTerminal"
   },
