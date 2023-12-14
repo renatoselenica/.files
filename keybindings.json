@@ -13,7 +13,7 @@
     }
   },
   {
-    "key": "ctrl+w t",
+    "key": "ctrl+p",
     "command": "workbench.action.tasks.toggleProblems",
   },
   {
