@@ -21,6 +21,7 @@ brew_packages=(
     "fd"
     "tree"
     "jq"
+    "reattach-to-user-namespace"
 )
 
 for package in "${brew_packages[@]}"; do
@@ -29,6 +30,11 @@ done
 
 # Install git-fuzzy (not available through Homebrew)
 git clone https://github.com/bigH/git-fuzzy.git ~/.git-fuzzy
+
+# Install TPM (Tmux Plugin Manager)
+if [ ! -d "$HOME/.tmux/plugins/tpm" ]; then
+    git clone https://github.com/tmux-plugins/tpm "$HOME/.tmux/plugins/tpm"
+fi
 
 # Install Oh My Zsh
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
