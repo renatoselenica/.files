@@ -5,7 +5,7 @@
     "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+i",
+    "key": "ctrl+cmd+i",
     "command": "editor.action.sourceAction",
     "args": {
       "kind": "source.addMissingImports",

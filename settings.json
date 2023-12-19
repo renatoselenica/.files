@@ -208,7 +208,6 @@
   "workbench.preferredDarkColorTheme": "GitHub Dark",
   "window.zoomLevel": -1,
   "workbench.layoutControl.enabled": false,
-  "editor.semanticHighlighting.enabled": true,
   "deno.enable": false,
   "workbench.editor.enablePreview": false,
   "workbench.editor.tabActionCloseVisibility": false,
@@ -219,6 +218,7 @@
   "scm.showIncomingChanges": "always",
   "workbench.editor.editorActionsLocation": "hidden",
   "editor.inlayHints.enabled": "on",
-  "workbench.colorTheme": "GitHub Dark",
-  "typescript.locale": "en"
+  "workbench.colorTheme": "GitHub Light",
+  "typescript.locale": "en",
+  "workbench.statusBar.visible": false,
 }
