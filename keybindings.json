@@ -13,7 +13,7 @@
     }
   },
   {
-    "key": "ctrl+p",
+    "key": "ctrl+cmd+p",
     "command": "workbench.action.tasks.toggleProblems",
     "when": "editorTextFocus || panelFocus && activePanel == 'workbench.panel.markers'"
   },

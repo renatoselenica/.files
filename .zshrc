@@ -30,6 +30,8 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:$HOME/go/bin
+export PATH=$PATH:/sbin
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home"
 export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 export PATH="/Users/renatoselenica/git-fuzzy/bin:$PATH"
@@ -62,5 +64,3 @@ if [ -f '/Users/renatoselenica/Projects/rounds/google-cloud-sdk/completion.zsh.i
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-export BAT_THEME="Visual Studio Dark+"

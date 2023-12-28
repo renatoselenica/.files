@@ -218,7 +218,7 @@
   "scm.showIncomingChanges": "always",
   "workbench.editor.editorActionsLocation": "hidden",
   "editor.inlayHints.enabled": "on",
-  "workbench.colorTheme": "GitHub Light",
   "typescript.locale": "en",
-  "workbench.statusBar.visible": false,
+  "workbench.colorTheme": "GitHub Dark",
+  "editor.semanticHighlighting.enabled": false
 }
