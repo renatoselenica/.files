@@ -1,9 +1,8 @@
 {
   "explorer.openEditors.visible": 1,
-  "editor.fontFamily": "Jetbrains Mono",
-  "terminal.integrated.fontFamily": "Jetbrains Mono",
-  "editor.fontSize": 20,
-  "editor.lineHeight": 30,
+  "editor.fontFamily": "Monaspace Argon",
+  "terminal.integrated.fontFamily": "Monaspace Argon",
+  "editor.fontSize": 22,
   "workbench.editor.tabSizing": "shrink",
   "html.format.enable": true,
   "html.format.preserveNewLines": true,
@@ -206,7 +205,6 @@
   "workbench.activityBar.location": "top",
   "workbench.preferredLightColorTheme": "GitHub Light",
   "workbench.preferredDarkColorTheme": "GitHub Dark",
-  "window.zoomLevel": -1,
   "workbench.layoutControl.enabled": false,
   "deno.enable": false,
   "workbench.editor.enablePreview": false,
@@ -219,6 +217,7 @@
   "workbench.editor.editorActionsLocation": "hidden",
   "editor.inlayHints.enabled": "on",
   "typescript.locale": "en",
-  "workbench.colorTheme": "GitHub Dark",
-  "editor.semanticHighlighting.enabled": false
+  "workbench.colorTheme": "Material Theme Darker High Contrast",
+  "editor.semanticHighlighting.enabled": false,
+  "window.zoomLevel": -1
 }
