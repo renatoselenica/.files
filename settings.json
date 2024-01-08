@@ -3,14 +3,12 @@
   "editor.fontFamily": "Monaspace Argon",
   "terminal.integrated.fontFamily": "Monaspace Argon",
   "editor.fontSize": 22,
-  "workbench.editor.tabSizing": "shrink",
   "html.format.enable": true,
   "html.format.preserveNewLines": true,
   "files.trimTrailingWhitespace": true,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "editor.multiCursorModifier": "ctrlCmd",
-  "editor.fontWeight": "400",
   "editor.cursorBlinking": "solid",
   "editor.colorDecorators": true,
   "workbench.sideBar.location": "right",
@@ -217,7 +215,7 @@
   "workbench.editor.editorActionsLocation": "hidden",
   "editor.inlayHints.enabled": "on",
   "typescript.locale": "en",
-  "workbench.colorTheme": "Material Theme Darker High Contrast",
+  "workbench.colorTheme": "GitHub Light",
   "editor.semanticHighlighting.enabled": false,
   "window.zoomLevel": -1
 }

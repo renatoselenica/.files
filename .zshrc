@@ -10,10 +10,11 @@ DISABLE_AUTO_UPDATE=true
 ZSH_AUTOSUGGEST_MANUAL_REBIND=1
 ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(
+  tmux
+  adb
   git
   node
   npm
-  zsh-autosuggestions
   zsh-syntax-highlighting
   docker
   docker-compose
@@ -64,3 +65,9 @@ if [ -f '/Users/renatoselenica/Projects/rounds/google-cloud-sdk/completion.zsh.i
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Number of events stored in the zsh history file
+export SAVEHIST=100000
+
+# Do not find duplicate command when searching
+setopt HIST_FIND_NO_DUPS
