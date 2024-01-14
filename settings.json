@@ -2,7 +2,7 @@
   "explorer.openEditors.visible": 1,
   "editor.fontFamily": "Monaspace Argon",
   "terminal.integrated.fontFamily": "Monaspace Argon",
-  "editor.fontSize": 22,
+  "editor.fontSize": 20,
   "html.format.enable": true,
   "html.format.preserveNewLines": true,
   "files.trimTrailingWhitespace": true,
@@ -201,13 +201,12 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.activityBar.location": "top",
-  "workbench.preferredLightColorTheme": "GitHub Light",
-  "workbench.preferredDarkColorTheme": "GitHub Dark",
+  "workbench.preferredLightColorTheme": "GitHub Light Default",
+  "workbench.preferredDarkColorTheme": "GitHub Dark Dimmed",
   "workbench.layoutControl.enabled": false,
   "deno.enable": false,
   "workbench.editor.enablePreview": false,
   "workbench.editor.tabActionCloseVisibility": false,
-  "workbench.editor.showTabs": "none",
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.occurrencesHighlight": "multiFile",
   "scm.showOutgoingChanges": "always",
@@ -215,7 +214,7 @@
   "workbench.editor.editorActionsLocation": "hidden",
   "editor.inlayHints.enabled": "on",
   "typescript.locale": "en",
-  "workbench.colorTheme": "GitHub Light",
   "editor.semanticHighlighting.enabled": false,
-  "window.zoomLevel": -1
+  "window.zoomLevel": -1,
+  "workbench.colorTheme": "GitHub Dark"
 }

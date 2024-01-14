@@ -10,14 +10,11 @@ DISABLE_AUTO_UPDATE=true
 ZSH_AUTOSUGGEST_MANUAL_REBIND=1
 ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(
-  tmux
   adb
   git
-  node
   npm
   zsh-syntax-highlighting
   docker
-  docker-compose
 )
 
 source $ZSH/oh-my-zsh.sh
