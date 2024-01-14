@@ -58,5 +58,6 @@ dotfiles_dir="$HOME/.dotfiles"
 ln -sf $dotfiles_dir/.vimrc $HOME/.vimrc
 ln -sf $dotfiles_dir/.zshrc $HOME/.zshrc
 ln -sf $dotfiles_dir/.tmux.conf $HOME/.tmux.conf
+ln -sf $dotfiles_dir/.gitconfig $HOME/.gitconfig
 
 echo "Environment setup completed."
