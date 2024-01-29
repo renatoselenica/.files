@@ -88,6 +88,10 @@
       "after": ["d", "d"]
     },
     {
+      "before": ["<leader>", "<leader>"],
+      "after": ["C-^"]
+    },
+    {
       "before": ["<leader>", "h"],
       "commands": [":nohl"]
     },
@@ -189,7 +193,7 @@
     "vscodevim.vim": 1
   },
   "editor.suggest.matchOnWordStartOnly": false,
-  "editor.scrollBeyondLastLine": false,
+  "editor.scrollBeyondLastLine": true,
   "editor.inlayHints.padding": true,
   "terminal.integrated.inheritEnv": true,
   "terminal.integrated.shellIntegration.enabled": true,
@@ -215,6 +219,6 @@
   "editor.inlayHints.enabled": "on",
   "typescript.locale": "en",
   "editor.semanticHighlighting.enabled": false,
-  "window.zoomLevel": -1,
-  "workbench.colorTheme": "GitHub Dark"
+  "workbench.colorTheme": "GitHub Light Default",
+  "window.zoomLevel": -1
 }
