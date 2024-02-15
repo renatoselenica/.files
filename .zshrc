@@ -34,10 +34,12 @@ export PATH=$PATH:/sbin
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home"
 export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 export PATH="/Users/renatoselenica/git-fuzzy/bin:$PATH"
+export PATH=$PATH:/usr/sbin
 # aliases
 alias lg=lazygit
 alias ld=lazydocker
 alias pip=pip3
+alias c='open -a "Visual Studio Code" .'
 move_to_trash() {
   mv "$@" ~/.Trash
 }
