@@ -2,7 +2,8 @@
   "explorer.openEditors.visible": 1,
   "editor.fontFamily": "Monaspace Argon",
   "terminal.integrated.fontFamily": "Monaspace Argon",
-  "editor.fontSize": 20,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 26,
   "html.format.enable": true,
   "html.format.preserveNewLines": true,
   "files.trimTrailingWhitespace": true,
@@ -213,7 +214,6 @@
   "workbench.preferredLightColorTheme": "Tokyo Night Light",
   "workbench.preferredDarkColorTheme": "Material Theme Darker High Contrast",
   "workbench.layoutControl.enabled": false,
-  "deno.enable": false,
   "workbench.editor.enablePreview": false,
   "workbench.editor.tabActionCloseVisibility": false,
   "diffEditor.ignoreTrimWhitespace": false,
@@ -224,7 +224,10 @@
   "editor.inlayHints.enabled": "on",
   "typescript.locale": "en",
   "editor.semanticHighlighting.enabled": false,
-  "workbench.colorTheme": "Tokyo Night Light",
-  "window.zoomLevel": -1,
-  "breadcrumbs.enabled": false
+  "workbench.colorTheme": "Material Theme Darker High Contrast",
+  "breadcrumbs.enabled": true,
+  "window.titleBarStyle": "native",
+  "window.nativeTabs": true,
+  "window.customTitleBarVisibility": "never",
+  "workbench.editor.showTabs": "none"
 }

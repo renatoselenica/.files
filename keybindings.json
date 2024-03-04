@@ -154,5 +154,21 @@
     "key": "shift+a",
     "command": "explorer.newFolder",
     "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "cmd+shift+[",
+    "command": "-workbench.action.previousEditor"
+  },
+  {
+    "key": "cmd+shift+]",
+    "command": "-workbench.action.nextEditor"
+  },
+  {
+    "key": "cmd+shift+[",
+    "command": "workbench.action.showPreviousWindowTab"
+  },
+  {
+    "key": "cmd+shift+]",
+    "command": "workbench.action.showNextWindowTab"
   }
 ]
