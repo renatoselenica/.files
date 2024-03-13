@@ -1,7 +1,7 @@
 {
   "explorer.openEditors.visible": 1,
-  "editor.fontFamily": "Monaspace Argon",
-  "terminal.integrated.fontFamily": "Monaspace Argon",
+  "editor.fontFamily": "Jetbrains Mono",
+  "terminal.integrated.fontFamily": "Jetbrains Mono",
   "editor.fontSize": 16,
   "editor.lineHeight": 26,
   "html.format.enable": true,
@@ -77,6 +77,12 @@
   "vim.useCtrlKeys": true,
   "vim.hlsearch": true,
   "vim.replaceWithRegister": true,
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.cursorStylePerMode.insert": "line",
+  "vim.cursorStylePerMode.visual": "underline",
+  "vim.cursorStylePerMode.replace": "line-thin",
+  "vim.cursorStylePerMode.visualblock": "block-outline",
+  "vim.cursorStylePerMode.visualline": "block-outline",
   "vim.insertModeKeyBindings": [
     {
       "before": ["j", "j"],
@@ -211,8 +217,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.activityBar.location": "top",
-  "workbench.preferredLightColorTheme": "Tokyo Night Light",
-  "workbench.preferredDarkColorTheme": "Material Theme Darker High Contrast",
+  "workbench.preferredLightColorTheme": "GitHub Light Default",
+  "workbench.preferredDarkColorTheme": "MacOS Modern Dark - Xcode Modern",
   "workbench.layoutControl.enabled": false,
   "workbench.editor.enablePreview": false,
   "workbench.editor.tabActionCloseVisibility": false,
@@ -224,10 +230,11 @@
   "editor.inlayHints.enabled": "on",
   "typescript.locale": "en",
   "editor.semanticHighlighting.enabled": false,
-  "workbench.colorTheme": "Material Theme Darker High Contrast",
+  "workbench.colorTheme": "MacOS Modern Dark - Xcode Modern",
   "breadcrumbs.enabled": true,
   "window.titleBarStyle": "native",
   "window.nativeTabs": true,
   "window.customTitleBarVisibility": "never",
+  "workbench.statusBar.visible": false,
   "workbench.editor.showTabs": "none"
 }
