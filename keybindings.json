@@ -167,5 +167,10 @@
     "key": "ctrl+y",
     "command": "acceptSelectedSuggestion",
     "when": "editorTextFocus && suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorTextFocus"
   }
 ]

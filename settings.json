@@ -236,5 +236,7 @@
   "window.nativeTabs": true,
   "window.customTitleBarVisibility": "never",
   "files.autoSave": "afterDelay",
-  "go.toolsManagement.autoUpdate": true
+  "go.toolsManagement.autoUpdate": true,
+  "workbench.editor.showTabs": "none",
+  "zenMode.showTabs": "none"
 }
