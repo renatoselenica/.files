@@ -97,7 +97,7 @@
       "after": ["d", "d"]
     },
     {
-      "before": ["<leader>", "<leader>"],
+      "before": ["<leader>", ","],
       "after": ["C-^"]
     },
     {
@@ -218,7 +218,7 @@
   },
   "workbench.activityBar.location": "top",
   "workbench.preferredLightColorTheme": "GitHub Light Default",
-  "workbench.preferredDarkColorTheme": "GitHub Dark Dimmed",
+  "workbench.preferredDarkColorTheme": "Material Theme Darker High Contrast",
   "workbench.layoutControl.enabled": false,
   "workbench.editor.enablePreview": false,
   "workbench.editor.tabActionCloseVisibility": false,
@@ -230,13 +230,15 @@
   "editor.inlayHints.enabled": "on",
   "typescript.locale": "en",
   "editor.semanticHighlighting.enabled": false,
-  "workbench.colorTheme": "GitHub Light Default",
+  "workbench.colorTheme": "Material Theme Darker High Contrast",
   "breadcrumbs.enabled": true,
   "window.titleBarStyle": "native",
   "window.nativeTabs": true,
   "window.customTitleBarVisibility": "never",
   "files.autoSave": "afterDelay",
   "go.toolsManagement.autoUpdate": true,
-  "workbench.editor.showTabs": "none",
-  "zenMode.showTabs": "none"
+  "zenMode.showTabs": "none",
+  "zenMode.hideLineNumbers": false,
+  "workbench.statusBar.visible": false,
+  "workbench.editor.showTabs": "none"
 }

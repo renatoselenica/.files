@@ -172,5 +172,10 @@
     "key": "ctrl+e",
     "command": "editor.action.triggerSuggest",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "workbench.action.quickTextSearch",
+    "when": "editorTextFocus"
   }
 ]

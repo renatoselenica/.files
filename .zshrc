@@ -34,8 +34,7 @@ export PATH=$PATH:/sbin
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home"
 export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 export PATH="/Users/renatoselenica/git-fuzzy/bin:$PATH"
-export PATH=$PATH:/usr/sbin
-export PERPLEXITY_API="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"
+export PATH=$PATH:/usr/sbin:/usr/local/bin
 # aliases
 alias lg=lazygit
 alias ld=lazydocker
