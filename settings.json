@@ -2,10 +2,12 @@
   "explorer.openEditors.visible": 1,
   "editor.fontFamily": "Monaspace Neon",
   "terminal.integrated.fontFamily": "Monaspace Neon",
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 20,
   "terminal.integrated.lineHeight": 1.5,
-  "editor.fontSize": 16,
-  "editor.lineHeight": 26,
+  "debug.console.fontFamily": "Monaspace Neon",
+  "debug.console.fontSize": 18,
+  "editor.fontSize": 20,
+  "editor.lineHeight": 30,
   "html.format.enable": true,
   "html.format.preserveNewLines": true,
   "files.trimTrailingWhitespace": true,
@@ -48,9 +50,11 @@
   "tailwindCSS.includeLanguages": {
     "plaintext": "html"
   },
-  "editor.quickSuggestions": {
-    "strings": true
-  },
+  // "editor.quickSuggestions": {
+  //   "strings": "off",
+  //   "comments": "off",
+  //   "other": "off"
+  // },
   "css.lint.unknownAtRules": "ignore",
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -231,7 +235,6 @@
   "typescript.locale": "en",
   "editor.semanticHighlighting.enabled": false,
   "workbench.colorTheme": "Material Theme Darker High Contrast",
-  "breadcrumbs.enabled": true,
   "window.titleBarStyle": "native",
   "window.nativeTabs": true,
   "window.customTitleBarVisibility": "never",
@@ -239,6 +242,11 @@
   "go.toolsManagement.autoUpdate": true,
   "zenMode.showTabs": "none",
   "zenMode.hideLineNumbers": false,
-  "workbench.statusBar.visible": false,
-  "workbench.editor.showTabs": "none"
+  "github.copilot.editor.enableAutoCompletions": true,
+  "lldb.library": "/Library/Developer/CommandLineTools/Library/PrivateFrameworks/LLDB.framework/Versions/A/LLDB",
+  "lldb.launch.expressions": "native",
+  "cody.telemetry.level": "off",
+  "githubPullRequests.pullBranch": "never",
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "scm.showHistoryGraph": false
 }

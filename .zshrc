@@ -15,6 +15,7 @@ plugins=(
   npm
   zsh-syntax-highlighting
   docker
+  fzf
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -31,7 +32,7 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:$HOME/go/bin
 export PATH=$PATH:/sbin
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home"
+export JAVA_HOME="/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home"
 export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 export PATH="/Users/renatoselenica/git-fuzzy/bin:$PATH"
 export PATH=$PATH:/usr/sbin:/usr/local/bin
@@ -71,3 +72,5 @@ export SAVEHIST=100000
 
 # Do not find duplicate command when searching
 setopt HIST_FIND_NO_DUPS
+
+export EXPO_TARGET="iPhone 15"
