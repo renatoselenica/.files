@@ -195,6 +195,20 @@
       ]
     }
   ],
+  // "vim.visualModeKeyBindingsNonRecursive": [
+  //   {
+  //     "before": ["<leader>", "p"],
+  //     "commands": [
+  //       {
+  //         "command": "vim.remap",
+  //         "args": {
+  //           "after": ["\"", "_", "d", "p"],
+  //           "mode": "v"
+  //         }
+  //       }
+  //     ]
+  //   }
+  // ],
   "vim.leader": "<space>",
   "vim.handleKeys": {
     "<C-a>": false,
@@ -221,8 +235,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.activityBar.location": "top",
-  "workbench.preferredLightColorTheme": "GitHub Light Default",
-  "workbench.preferredDarkColorTheme": "Material Theme Darker High Contrast",
+  "workbench.preferredDarkColorTheme": "Default Dark Modern",
   "workbench.layoutControl.enabled": false,
   "workbench.editor.enablePreview": false,
   "workbench.editor.tabActionCloseVisibility": false,
@@ -234,10 +247,8 @@
   "editor.inlayHints.enabled": "on",
   "typescript.locale": "en",
   "editor.semanticHighlighting.enabled": false,
-  "workbench.colorTheme": "Material Theme Darker High Contrast",
   "window.titleBarStyle": "native",
   "window.nativeTabs": true,
-  "window.customTitleBarVisibility": "never",
   "files.autoSave": "afterDelay",
   "go.toolsManagement.autoUpdate": true,
   "zenMode.showTabs": "none",
@@ -248,5 +259,18 @@
   "cody.telemetry.level": "off",
   "githubPullRequests.pullBranch": "never",
   "editor.inlineSuggest.suppressSuggestions": true,
-  "scm.showHistoryGraph": false
+  "scm.showHistoryGraph": false,
+  "window.customTitleBarVisibility": "never",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js, ${capture}.typegen.ts",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts, ${capture}.typegen.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "*.mts": "${capture}.typegen.ts",
+    "*.cts": "${capture}.typegen.ts"
+  },
+  "workbench.preferredLightColorTheme": "Atom One Light"
 }
