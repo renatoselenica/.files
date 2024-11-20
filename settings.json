@@ -6,7 +6,7 @@
   "terminal.integrated.lineHeight": 1.5,
   "debug.console.fontFamily": "Monaspace Neon",
   "debug.console.fontSize": 18,
-  "editor.fontSize": 20,
+  "editor.fontSize": 18,
   "editor.lineHeight": 30,
   "html.format.enable": true,
   "html.format.preserveNewLines": true,
@@ -195,20 +195,6 @@
       ]
     }
   ],
-  // "vim.visualModeKeyBindingsNonRecursive": [
-  //   {
-  //     "before": ["<leader>", "p"],
-  //     "commands": [
-  //       {
-  //         "command": "vim.remap",
-  //         "args": {
-  //           "after": ["\"", "_", "d", "p"],
-  //           "mode": "v"
-  //         }
-  //       }
-  //     ]
-  //   }
-  // ],
   "vim.leader": "<space>",
   "vim.handleKeys": {
     "<C-a>": false,
@@ -235,14 +221,12 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.activityBar.location": "top",
-  "workbench.preferredDarkColorTheme": "Default Dark Modern",
+  "workbench.preferredDarkColorTheme": "Material Theme Darker High Contrast",
   "workbench.layoutControl.enabled": false,
   "workbench.editor.enablePreview": false,
   "workbench.editor.tabActionCloseVisibility": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.occurrencesHighlight": "multiFile",
-  "scm.showOutgoingChanges": "always",
-  "scm.showIncomingChanges": "always",
   "workbench.editor.editorActionsLocation": "hidden",
   "editor.inlayHints.enabled": "on",
   "typescript.locale": "en",
@@ -256,11 +240,8 @@
   "github.copilot.editor.enableAutoCompletions": true,
   "lldb.library": "/Library/Developer/CommandLineTools/Library/PrivateFrameworks/LLDB.framework/Versions/A/LLDB",
   "lldb.launch.expressions": "native",
-  "cody.telemetry.level": "off",
   "githubPullRequests.pullBranch": "never",
   "editor.inlineSuggest.suppressSuggestions": true,
-  "scm.showHistoryGraph": false,
-  "window.customTitleBarVisibility": "never",
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
     "*.ts": "${capture}.js, ${capture}.typegen.ts",
@@ -272,5 +253,7 @@
     "*.mts": "${capture}.typegen.ts",
     "*.cts": "${capture}.typegen.ts"
   },
-  "workbench.preferredLightColorTheme": "Atom One Light"
+  "workbench.preferredLightColorTheme": "Atom One Light",
+  "window.commandCenter": false,
+  "window.customTitleBarVisibility": "never"
 }
