@@ -73,7 +73,6 @@
     "command": "workbench.action.decreaseViewSize"
   },
   {
-    "key": "ctrl+shift+i",
     "command": "workbench.action.increaseViewSize"
   },
   {
@@ -177,5 +176,14 @@
     "key": "ctrl+f",
     "command": "workbench.action.quickTextSearch",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+ctrl+n",
+    "command": "workbench.panel.composerViewPane2"
+  },
+  {
+    "key": "cmd+1",
+    "command": "workbench.action.focusFirstEditorGroup",
+    "when": "!editorFocus"
   }
 ]

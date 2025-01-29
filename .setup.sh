@@ -20,7 +20,9 @@ brew_packages=(
     "fd"
     "tree"
     "jq"
-    "reattach-to-user-namespace"
+    "reattach-to-user-namespace",
+    "lazygit",
+    "lazydocker"
 )
 
 for package in "${brew_packages[@]}"; do

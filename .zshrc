@@ -27,7 +27,8 @@ export PATH=$PATH:/usr/sbin:/usr/local/bin
 alias lg=lazygit
 alias ld=lazydocker
 alias pip=pip3
-alias c='open -a "Visual Studio Code" .'
+alias c='open -a "Cursor" .'
+alias vc='open -a "Visual Studio Code" .'
 move_to_trash() {
   mv "$@" ~/.Trash
 }
@@ -60,3 +61,4 @@ setopt HIST_FIND_NO_DUPS
 
 export EXPO_TARGET="iPhone 15"
 eval "$(fnm env --use-on-cd --shell zsh)"
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"

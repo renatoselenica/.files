@@ -1,10 +1,11 @@
 {
   "explorer.openEditors.visible": 1,
-  "editor.fontFamily": "Monaspace Neon",
-  "terminal.integrated.fontFamily": "Monaspace Neon",
-  "terminal.integrated.fontSize": 20,
-  "terminal.integrated.lineHeight": 1.5,
-  "debug.console.fontFamily": "Monaspace Neon",
+  "editor.fontFamily": "Fira Code Retina",
+  "terminal.integrated.fontFamily": "Fira Code Retina",
+  "editor.fontLigatures": false,
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.lineHeight": 1.2,
+  "debug.console.fontFamily": "Fira Code Retina",
   "debug.console.fontSize": 18,
   "editor.fontSize": 18,
   "editor.lineHeight": 30,
@@ -16,9 +17,8 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.cursorBlinking": "solid",
   "editor.colorDecorators": true,
-  "workbench.sideBar.location": "right",
+  // "workbench.sideBar.location": "right",
   "editor.renderWhitespace": "none",
-  "workbench.startupEditor": "newUntitledFile",
   "extensions.ignoreRecommendations": false,
   "files.exclude": {
     "/._": true,
@@ -32,7 +32,6 @@
   "editor.snippetSuggestions": "top",
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "editor.formatOnSave": false,
-  "telemetry.telemetryLevel": "off",
   "files.defaultLanguage": "markdown",
   "html.autoClosingTags": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -50,11 +49,6 @@
   "tailwindCSS.includeLanguages": {
     "plaintext": "html"
   },
-  // "editor.quickSuggestions": {
-  //   "strings": "off",
-  //   "comments": "off",
-  //   "other": "off"
-  // },
   "css.lint.unknownAtRules": "ignore",
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -198,7 +192,9 @@
   "vim.leader": "<space>",
   "vim.handleKeys": {
     "<C-a>": false,
-    "<C-f>": false
+    "<C-f>": false,
+    "<C-Home>": false,
+    "<C-End>": false
   },
   "workbench.iconTheme": null,
   "security.workspace.trust.untrustedFiles": "open",
@@ -220,9 +216,6 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.activityBar.location": "top",
-  "workbench.preferredDarkColorTheme": "Material Theme Darker High Contrast",
-  "workbench.layoutControl.enabled": false,
   "workbench.editor.enablePreview": false,
   "workbench.editor.tabActionCloseVisibility": false,
   "diffEditor.ignoreTrimWhitespace": false,
@@ -233,14 +226,10 @@
   "editor.semanticHighlighting.enabled": false,
   "window.titleBarStyle": "native",
   "window.nativeTabs": true,
-  "files.autoSave": "afterDelay",
+  // "files.autoSave": "afterDelay",
   "go.toolsManagement.autoUpdate": true,
   "zenMode.showTabs": "none",
   "zenMode.hideLineNumbers": false,
-  "github.copilot.editor.enableAutoCompletions": true,
-  "lldb.library": "/Library/Developer/CommandLineTools/Library/PrivateFrameworks/LLDB.framework/Versions/A/LLDB",
-  "lldb.launch.expressions": "native",
-  "githubPullRequests.pullBranch": "never",
   "editor.inlineSuggest.suppressSuggestions": true,
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
@@ -255,5 +244,11 @@
   },
   "workbench.preferredLightColorTheme": "Atom One Light",
   "window.commandCenter": false,
-  "window.customTitleBarVisibility": "never"
+  "window.customTitleBarVisibility": "never",
+  "workbench.editor.showTabs": "none",
+  "workbench.statusBar.visible": false,
+  "chat.editor.fontFamily": "Fira Code Retina",
+  "database-client.autoSync": true,
+  "workbench.activityBar.location": "hidden",
+  "workbench.startupEditor": "none"
 }
