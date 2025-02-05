@@ -224,13 +224,13 @@
   "editor.inlayHints.enabled": "on",
   "typescript.locale": "en",
   "editor.semanticHighlighting.enabled": false,
-  "window.titleBarStyle": "native",
-  "window.nativeTabs": true,
+  // "window.titleBarStyle": "native",
+  "window.nativeTabs": false,
   // "files.autoSave": "afterDelay",
   "go.toolsManagement.autoUpdate": true,
   "zenMode.showTabs": "none",
   "zenMode.hideLineNumbers": false,
-  "editor.inlineSuggest.suppressSuggestions": true,
+  // "editor.inlineSuggest.suppressSuggestions": true,
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
     "*.ts": "${capture}.js, ${capture}.typegen.ts",
@@ -243,12 +243,13 @@
     "*.cts": "${capture}.typegen.ts"
   },
   "workbench.preferredLightColorTheme": "Atom One Light",
-  "window.commandCenter": false,
-  "window.customTitleBarVisibility": "never",
-  "workbench.editor.showTabs": "none",
-  "workbench.statusBar.visible": false,
+  "workbench.preferredDarkColorTheme": "Default Dark Modern",
+  "window.commandCenter": true,
+  // "workbench.editor.showTabs": "none",
+  // "workbench.statusBar.visible": false,
   "chat.editor.fontFamily": "Fira Code Retina",
   "database-client.autoSync": true,
-  "workbench.activityBar.location": "hidden",
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "workbench.activityBar.location": "top",
+  "workbench.layoutControl.enabled": false
 }

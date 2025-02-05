@@ -4,7 +4,7 @@
 
 [user]
     name = renatoselenica
-    email = renatoselenica@protonmail.com
+    email = 32323717+renatoselenica@users.noreply.github.com
 
 [interactive]
     diffFilter = delta --color-only --features "$(defaults read -globalDomain AppleInterfaceStyle &> /dev/null && echo dark-mode || echo light-mode)"
