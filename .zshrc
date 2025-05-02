@@ -17,9 +17,10 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+export JAVA_HOME="/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home"
+
 export PATH=$PATH:$HOME/go/bin
 export PATH=$PATH:/sbin
-export JAVA_HOME="/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home"
 export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 export PATH="/Users/renatoselenica/.git-fuzzy/bin:$PATH"
 export PATH=$PATH:/usr/sbin:/usr/local/bin
@@ -27,8 +28,9 @@ export PATH=$PATH:/usr/sbin:/usr/local/bin
 alias lg=lazygit
 alias ld=lazydocker
 alias pip=pip3
-alias c='open -a "Cursor" .'
-alias vc='open -a "Visual Studio Code" .'
+alias c='open $1 -a "Cursor"'
+alias v='open $1 -a "Visual Studio Code"'
+alias z='open $1 -a "Zed"'
 move_to_trash() {
   mv "$@" ~/.Trash
 }
@@ -62,3 +64,8 @@ setopt HIST_FIND_NO_DUPS
 export EXPO_TARGET="iPhone 15"
 eval "$(fnm env --use-on-cd --shell zsh)"
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+fpath=(/Users/renatoselenica/.docker/completions $fpath)
+autoload -Uz compinit
+compinit
+# End of Docker CLI completions

@@ -185,5 +185,13 @@
     "key": "cmd+1",
     "command": "workbench.action.focusFirstEditorGroup",
     "when": "!editorFocus"
+  },
+  {
+    "key": "ctrl+cmd+,",
+    "command": "editor.cpp.toggle"
+  },
+  {
+    "key": "cmd+i",
+    "command": "composerMode.agent"
   }
 ]
