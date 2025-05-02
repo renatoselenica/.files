@@ -57,9 +57,14 @@ echo "Installation completed."
 dotfiles_dir="$HOME/.dotfiles"
 
 # Create symlinks
-ln -sf $dotfiles_dir/.vimrc $HOME/.vimrc
 ln -sf $dotfiles_dir/.zshrc $HOME/.zshrc
 ln -sf $dotfiles_dir/.tmux.conf $HOME/.tmux.conf
 ln -sf $dotfiles_dir/.gitconfig $HOME/.gitconfig
+ln -sf $dotfiles_dir/vscode/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
+ln -sf $dotfiles_dir/vscode/keybindings.json $HOME/Library/Application\ Support/Code/User/keybindings.json
+ln -sf $dotfiles_dir/vscode/settings.json $HOME/Library/Application\ Support/Cursor/User/settings.json
+ln -sf $dotfiles_dir/vscode/keybindings.json $HOME/Library/Application\ Support/Cursor/User/keybindings.json
+ln -sf $dotfiles_dir/zed/keymap.json $HOME/.config/zed/keymap.json
+ln -sf $dotfiles_dir/zed/settings.json $HOME/.config/zed/settings.json
 
 echo "Environment setup completed."
