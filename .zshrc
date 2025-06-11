@@ -30,7 +30,6 @@ alias ld=lazydocker
 alias pip=pip3
 alias c='open $1 -a "Cursor"'
 alias v='open $1 -a "Visual Studio Code"'
-alias z='open $1 -a "Zed"'
 move_to_trash() {
   mv "$@" ~/.Trash
 }

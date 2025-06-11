@@ -1,5 +1,5 @@
 [core]
-    editor = zed
+    editor = code --wait
     pager = delta --features "$(defaults read -globalDomain AppleInterfaceStyle &> /dev/null && echo dark-mode || echo light-mode)"
 
 [user]

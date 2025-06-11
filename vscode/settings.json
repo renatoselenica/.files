@@ -253,7 +253,7 @@
   "workbench.editor.tabSizing": "shrink",
   "editor.quickSuggestionsDelay": 100,
   "git.suggestSmartCommit": false,
-  "workbench.preferredLightColorTheme": "Nord Light Brighter",
+  "workbench.preferredLightColorTheme": "Nord Light",
   "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
   "lldb.launch.expressions": "native",
   "workbench.editor.showTabs": "none",
