@@ -57,7 +57,7 @@
   "explorer.confirmDragAndDrop": false,
   "editor.inlineSuggest.enabled": true,
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -253,10 +253,11 @@
   "workbench.editor.tabSizing": "shrink",
   "editor.quickSuggestionsDelay": 100,
   "git.suggestSmartCommit": false,
-  "workbench.preferredLightColorTheme": "Nord Light",
+  "workbench.preferredLightColorTheme": "Nord Light Brighter",
   "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
   "lldb.launch.expressions": "native",
   "workbench.editor.showTabs": "none",
   "window.commandCenter": false,
-  "chat.commandCenter.enabled": false
+  "chat.commandCenter.enabled": false,
+  "workbench.preferredDarkColorTheme": "Cursor Dark Midnight"
 }
