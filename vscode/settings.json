@@ -1,0 +1,263 @@
+{
+  "explorer.openEditors.visible": 1,
+  "editor.fontFamily": "Fira Code Retina",
+  "terminal.integrated.fontFamily": "Fira Code Retina",
+  "editor.fontLigatures": false,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.lineHeight": 1.2,
+  "debug.console.fontFamily": "Fira Code Retina",
+  "debug.console.fontSize": 18,
+  "editor.fontSize": 18,
+  "editor.lineHeight": 30,
+  "html.format.enable": true,
+  "html.format.preserveNewLines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.cursorBlinking": "solid",
+  "editor.colorDecorators": true,
+  // "workbench.sideBar.location": "right",
+  "editor.renderWhitespace": "none",
+  "extensions.ignoreRecommendations": false,
+  "files.exclude": {
+    "/._": true,
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.next": false,
+    "**/.svn": true,
+    "**/CVS": true
+  },
+  "editor.snippetSuggestions": "top",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.formatOnSave": false,
+  "files.defaultLanguage": "markdown",
+  "html.autoClosingTags": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "editor.suggestSelection": "first",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.autoReveal": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  },
+  "css.lint.unknownAtRules": "ignore",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.linkedEditing": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.inlineSuggest.enabled": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "js/ts.implicitProjectConfig.checkJs": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.enabled": false,
+  "editor.lineNumbers": "relative",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.replaceWithRegister": true,
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.cursorStylePerMode.insert": "line",
+  "vim.cursorStylePerMode.visual": "underline",
+  "vim.cursorStylePerMode.replace": "line-thin",
+  "vim.cursorStylePerMode.visualblock": "block-outline",
+  "vim.cursorStylePerMode.visualline": "block-outline",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<leader>", ","],
+      "after": ["C-^"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    },
+    {
+      "before": ["s"],
+      "after": ["<leader>", "<leader>", "s"]
+    },
+    {
+      "before": ["g", "H"],
+      "commands": ["editor.action.referenceSearch.trigger"],
+      "silent": true
+    },
+    {
+      "before": ["g", "O"],
+      "commands": ["workbench.action.gotoSymbol"],
+      "silent": true
+    },
+    {
+      "before": ["<C-w>", "g", "d"],
+      "commands": ["editor.action.revealDefinitionAside"],
+      "silent": true
+    },
+    {
+      "before": ["<C-w>", "l"],
+      "commands": ["workbench.action.toggleEditorGroupLock"],
+      "silent": true
+    },
+    {
+      "before": ["<leader>", "l", "f"],
+      "commands": ["editor.action.formatDocument"],
+      "silent": true
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.files.action.showActiveFileInExplorer"],
+      "silent": true
+    },
+    {
+      "before": ["<C-w>", "H"],
+      "commands": ["workbench.action.moveActiveEditorGroupLeft"],
+      "silent": true
+    },
+    {
+      "before": ["<C-w>", "J"],
+      "commands": ["workbench.action.moveActiveEditorGroupDown"],
+      "silent": true
+    },
+    {
+      "before": ["<C-w>", "K"],
+      "commands": ["workbench.action.moveActiveEditorGroupUp"],
+      "silent": true
+    },
+    {
+      "before": ["<C-w>", "L"],
+      "commands": ["workbench.action.moveActiveEditorGroupRight"],
+      "silent": true
+    },
+    {
+      "before": ["<C-w>", "_"],
+      "commands": ["workbench.action.minimizeOtherEditors"],
+      "silent": true
+    },
+    {
+      "before": ["leader", "w"],
+      "commands": ["workbench.action.files.saveWithoutFormatting"]
+    },
+    {
+      "before": ["u"],
+      "after": [],
+      "commands": [
+        {
+          "command": "undo"
+        }
+      ]
+    },
+    {
+      "before": ["<C-r>"],
+      "after": [],
+      "commands": [
+        {
+          "command": "redo"
+        }
+      ]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-Home>": false,
+    "<C-End>": false
+  },
+  "workbench.iconTheme": null,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.guides.indentation": false,
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  "editor.suggest.matchOnWordStartOnly": false,
+  "editor.scrollBeyondLastLine": true,
+  "editor.inlayHints.padding": true,
+  "terminal.integrated.inheritEnv": true,
+  "terminal.integrated.shellIntegration.enabled": true,
+  "window.autoDetectColorScheme": true,
+  "editor.stickyScroll.enabled": true,
+  "eslint.format.enable": true,
+  "terminal.integrated.macOptionClickForcesSelection": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.tabActionCloseVisibility": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.occurrencesHighlight": "multiFile",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "editor.inlayHints.enabled": "on",
+  "typescript.locale": "en",
+  "editor.semanticHighlighting.enabled": false,
+  // "window.titleBarStyle": "native",
+  "window.nativeTabs": false,
+  // "files.autoSave": "afterDelay",
+  "go.toolsManagement.autoUpdate": true,
+  "zenMode.showTabs": "none",
+  "zenMode.hideLineNumbers": false,
+  // "editor.inlineSuggest.suppressSuggestions": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js, ${capture}.typegen.ts",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts, ${capture}.typegen.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "*.mts": "${capture}.typegen.ts",
+    "*.cts": "${capture}.typegen.ts"
+  },
+  // "workbench.editor.showTabs": "none",
+  // "workbench.statusBar.visible": false,
+  "chat.editor.fontFamily": "Fira Code Retina",
+  "database-client.autoSync": true,
+  "workbench.startupEditor": "none",
+  "workbench.activityBar.location": "top",
+  "workbench.layoutControl.enabled": false,
+  "workbench.navigationControl.enabled": false,
+  "workbench.editor.tabSizing": "shrink",
+  "editor.quickSuggestionsDelay": 100,
+  "git.suggestSmartCommit": false,
+  "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
+  "lldb.launch.expressions": "native",
+  "workbench.editor.showTabs": "none",
+  "window.commandCenter": false,
+  "chat.commandCenter.enabled": false,
+  "workbench.preferredDarkColorTheme": "Cursor Dark Midnight",
+  "workbench.preferredLightColorTheme": "Nord Light"
+}

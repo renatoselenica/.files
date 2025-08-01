@@ -1,0 +1,201 @@
+[
+  {
+    "key": "ctrl+g",
+    "command": "editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+cmd+i",
+    "command": "editor.action.sourceAction",
+    "args": {
+      "kind": "source.addMissingImports",
+      "apply": "first"
+    }
+  },
+  {
+    "key": "ctrl+cmd+p",
+    "command": "workbench.action.tasks.toggleProblems",
+    "when": "editorTextFocus || panelFocus && activePanel == 'workbench.panel.markers'"
+  },
+  {
+    "key": "ctrl+\\",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.navigateLeft"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.navigateRight",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.navigateUp"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.navigateDown"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.quickOpenSelectPrevious",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.quickOpenSelectNext",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+k",
+    "when": "codeActionMenuVisible",
+    "command": "selectPrevCodeAction"
+  },
+  {
+    "key": "ctrl+j",
+    "when": "codeActionMenuVisible",
+    "command": "selectNextCodeAction"
+  },
+  {
+    "key": "ctrl+shift+o",
+    "command": "workbench.action.decreaseViewSize"
+  },
+  {
+    "command": "workbench.action.increaseViewSize"
+  },
+  {
+    "key": "ctrl+=",
+    "command": "notifications.focusToasts"
+  },
+  {
+    "key": "ctrl+w z",
+    "command": "workbench.action.toggleMaximizedPanel",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.quickOpenSelectPrevious",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.quickOpenSelectNext",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+k",
+    "when": "codeActionMenuVisible",
+    "command": "selectPrevCodeAction"
+  },
+  {
+    "key": "ctrl+j",
+    "when": "codeActionMenuVisible",
+    "command": "selectNextCodeAction"
+  },
+  {
+    "key": "d",
+    "command": "deleteFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "r",
+    "command": "renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "y",
+    "command": "filesExplorer.copy",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+  },
+  {
+    "key": "x",
+    "command": "filesExplorer.cut",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "p",
+    "command": "filesExplorer.paste",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "v",
+    "command": "explorer.openToSide",
+    "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+  },
+  {
+    "key": "a",
+    "command": "explorer.newFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "shift+a",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "cmd+alt+left",
+    "command": "workbench.action.showPreviousWindowTab"
+  },
+  {
+    "key": "cmd+alt+right",
+    "command": "workbench.action.showNextWindowTab"
+  },
+  {
+    "key": "ctrl+y",
+    "command": "acceptSelectedSuggestion",
+    "when": "editorTextFocus && suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "workbench.action.quickTextSearch",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+ctrl+n",
+    "command": "workbench.panel.composerViewPane2"
+  },
+  {
+    "key": "cmd+1",
+    "command": "workbench.action.focusFirstEditorGroup",
+    "when": "!editorFocus"
+  },
+  {
+    "key": "ctrl+cmd+,",
+    "command": "editor.cpp.toggle"
+  },
+  {
+    "key": "cmd+i",
+    "command": "composerMode.agent"
+  },
+  {
+    "key": "cmd+e",
+    "command": "composerMode.background"
+  }
+]

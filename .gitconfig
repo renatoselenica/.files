@@ -1,0 +1,28 @@
+[core]
+    editor = code --wait
+    pager = delta --features "$(defaults read -globalDomain AppleInterfaceStyle &> /dev/null && echo dark-mode || echo light-mode)"
+
+[user]
+    name = renatoselenica
+    email = 32323717+renatoselenica@users.noreply.github.com
+
+[interactive]
+    diffFilter = delta --color-only --features "$(defaults read -globalDomain AppleInterfaceStyle &> /dev/null && echo dark-mode || echo light-mode)"
+
+[delta "light-mode"]
+    light = true
+    navigate = true    # use n and N to move between diff sections
+    hyperlinks = true
+    hyperlinks-file-link-format = "vscode://file/{path}:{line}"
+
+[delta "dark-mode"]
+    light = false
+    navigate = true    # use n and N to move between diff sections
+    hyperlinks = true
+    hyperlinks-file-link-format = "vscode://file/{path}:{line}"
+
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default
