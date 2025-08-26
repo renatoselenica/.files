@@ -27,7 +27,11 @@
     "**/.hg": true,
     "**/.next": false,
     "**/.svn": true,
-    "**/CVS": true
+    "**/CVS": true,
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/build/**": true,
+    "**/coverage/**": true
   },
   "editor.snippetSuggestions": "top",
   "workbench.editor.enablePreviewFromQuickOpen": false,
@@ -221,7 +225,7 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.occurrencesHighlight": "multiFile",
   "workbench.editor.editorActionsLocation": "hidden",
-  "editor.inlayHints.enabled": "on",
+  "editor.inlayHints.enabled": "offUnlessPressed",
   "typescript.locale": "en",
   "editor.semanticHighlighting.enabled": false,
   // "window.titleBarStyle": "native",
@@ -245,7 +249,6 @@
   // "workbench.editor.showTabs": "none",
   // "workbench.statusBar.visible": false,
   "chat.editor.fontFamily": "Fira Code Retina",
-  "database-client.autoSync": true,
   "workbench.startupEditor": "none",
   "workbench.activityBar.location": "top",
   "workbench.layoutControl.enabled": false,
@@ -258,6 +261,20 @@
   "workbench.editor.showTabs": "none",
   "window.commandCenter": false,
   "chat.commandCenter.enabled": false,
-  "workbench.preferredDarkColorTheme": "Cursor Dark Midnight",
-  "workbench.preferredLightColorTheme": "Nord Light"
+  "workbench.preferredDarkColorTheme": "Gruvbox Material Dark",
+  "workbench.preferredLightColorTheme": "Gruvbox Light Hard",
+  "terminal.integrated.enablePersistentSessions": true,
+  "terminal.integrated.persistentSessionReviveProcess": "onExit",
+  "terminal.integrated.persistentSessionScrollback": 10000,
+  "terminal.integrated.hideOnStartup": "whenEmpty",
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.next": true,
+    "**/.turbo": true
+  },
+  "typescript.tsserver.maxTsServerMemory": 4096,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.smoothScrolling": false
 }

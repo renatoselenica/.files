@@ -14,13 +14,11 @@ brew update
 brew_packages=(
     "git-delta"
     "fzf"
-    "tmux"
     "ripgrep"
     "bat"
     "fd"
     "tree"
     "jq"
-    "reattach-to-user-namespace",
     "lazygit",
     "lazydocker"
 )
@@ -29,13 +27,36 @@ for package in "${brew_packages[@]}"; do
     brew install $package
 done
 
+# MacPorts alternative (commented out):
+# # Check if MacPorts is installed, if not, install it manually
+# if ! command -v port &> /dev/null
+# then
+#     echo "MacPorts not found. Please install MacPorts manually from https://www.macports.org/install.php"
+#     exit 1
+# fi
+#
+# # Update MacPorts
+# sudo port -v selfupdate
+#
+# # Install packages available through MacPorts
+# macports_packages=(
+#     "git-delta"
+#     "fzf"
+#     "ripgrep"
+#     "bat"
+#     "fd"
+#     "tree"
+#     "jq"
+#     "lazygit"
+#     "lazydocker"
+# )
+#
+# for package in "${macports_packages[@]}"; do
+#     sudo port install $package
+# done
+
 # Install git-fuzzy (not available through Homebrew)
 git clone https://github.com/bigH/git-fuzzy.git ~/.git-fuzzy
-
-# Install TPM (Tmux Plugin Manager)
-if [ ! -d "$HOME/.tmux/plugins/tpm" ]; then
-    git clone https://github.com/tmux-plugins/tpm "$HOME/.tmux/plugins/tpm"
-fi
 
 # Install Oh My Zsh
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
@@ -58,7 +79,6 @@ dotfiles_dir="$HOME/.dotfiles"
 
 # Create symlinks
 ln -sf $dotfiles_dir/.zshrc $HOME/.zshrc
-ln -sf $dotfiles_dir/.tmux.conf $HOME/.tmux.conf
 ln -sf $dotfiles_dir/.gitconfig $HOME/.gitconfig
 ln -sf $dotfiles_dir/vscode/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
 ln -sf $dotfiles_dir/vscode/keybindings.json $HOME/Library/Application\ Support/Code/User/keybindings.json

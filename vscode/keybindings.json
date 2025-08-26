@@ -197,5 +197,50 @@
   {
     "key": "cmd+e",
     "command": "composerMode.background"
+  },
+  {
+    "key": "cmd+shift+r",
+    "command": "workbench.action.debug.start",
+    "when": "!inDebugMode && vim.mode != 'insert'"
+  },
+  {
+    "key": "cmd+shift+r",
+    "command": "workbench.action.debug.continue",
+    "when": "inDebugMode && vim.mode != 'insert'"
+  },
+  {
+    "key": "cmd+shift+o",
+    "command": "workbench.action.debug.stepOver",
+    "when": "inDebugMode && vim.mode != 'insert'"
+  },
+  {
+    "key": "cmd+shift+i",
+    "command": "workbench.action.debug.stepInto",
+    "when": "inDebugMode && vim.mode != 'insert'"
+  },
+  {
+    "key": "cmd+shift+u",
+    "command": "workbench.action.debug.stepOut",
+    "when": "inDebugMode && vim.mode != 'insert'"
+  },
+  {
+    "key": "cmd+shift+b",
+    "command": "editor.debug.action.toggleBreakpoint",
+    "when": "editorTextFocus && vim.mode != 'insert'"
+  },
+  {
+    "key": "cmd+shift+x",
+    "command": "workbench.action.debug.restart",
+    "when": "inDebugMode && vim.mode != 'insert'"
+  },
+  {
+    "key": "cmd+shift+s",
+    "command": "workbench.action.debug.stop",
+    "when": "inDebugMode && vim.mode != 'insert'"
+  },
+  {
+    "key": "cmd+shift+h",
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus && vim.mode != 'insert'"
   }
 ]
