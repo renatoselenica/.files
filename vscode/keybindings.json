@@ -73,6 +73,7 @@
     "command": "workbench.action.decreaseViewSize"
   },
   {
+    "key": "ctrl+shift+i",
     "command": "workbench.action.increaseViewSize"
   },
   {
@@ -237,10 +238,5 @@
     "key": "cmd+shift+s",
     "command": "workbench.action.debug.stop",
     "when": "inDebugMode && vim.mode != 'insert'"
-  },
-  {
-    "key": "cmd+shift+h",
-    "command": "editor.action.showHover",
-    "when": "editorTextFocus && vim.mode != 'insert'"
   }
 ]

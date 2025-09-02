@@ -55,9 +55,6 @@ done
 #     sudo port install $package
 # done
 
-# Install git-fuzzy (not available through Homebrew)
-git clone https://github.com/bigH/git-fuzzy.git ~/.git-fuzzy
-
 # Install Oh My Zsh
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

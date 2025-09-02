@@ -276,5 +276,6 @@
   },
   "typescript.tsserver.maxTsServerMemory": 4096,
   "typescript.tsdk": "node_modules/typescript/lib",
-  "editor.smoothScrolling": false
+  "editor.smoothScrolling": false,
+  "workbench.secondarySideBar.defaultVisibility": "hidden"
 }
