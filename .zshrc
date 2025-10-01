@@ -26,7 +26,6 @@ export PATH=$PATH:/sbin
 export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 # MacPorts equivalent:
 # export PATH="/opt/local/lib/mysql8/bin:$PATH"
-export PATH="/Users/renatoselenica/.git-fuzzy/bin:$PATH"
 export PATH=$PATH:/usr/sbin:/usr/local/bin
 # MacPorts equivalents (add to beginning of PATH):
 # export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
@@ -64,6 +63,8 @@ export SAVEHIST=100000
 # Do not find duplicate command when searching
 setopt HIST_FIND_NO_DUPS
 
+export EDITOR="code --wait"
+
 export EXPO_TARGET="iPhone 15"
 eval "$(fnm env --use-on-cd --shell zsh)"
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
@@ -88,3 +89,5 @@ export PATH="$HOME/.local/bin:$PATH"
 export PATH="$PATH:/Users/renatoselenica/.lmstudio/bin"
 # End of LM Studio CLI section
 
+# Added by Windsurf
+export PATH="/Users/renatoselenica/.codeium/windsurf/bin:$PATH"

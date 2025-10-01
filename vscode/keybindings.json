@@ -196,10 +196,6 @@
     "command": "composerMode.agent"
   },
   {
-    "key": "cmd+e",
-    "command": "composerMode.background"
-  },
-  {
     "key": "cmd+shift+r",
     "command": "workbench.action.debug.start",
     "when": "!inDebugMode && vim.mode != 'insert'"
