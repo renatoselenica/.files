@@ -251,7 +251,6 @@
   "lldb.launch.expressions": "native",
   "workbench.editor.showTabs": "none",
   "chat.commandCenter.enabled": false,
-  "workbench.preferredDarkColorTheme": "Atom One Dark",
   "terminal.integrated.enablePersistentSessions": true,
   "terminal.integrated.persistentSessionReviveProcess": "onExit",
   "terminal.integrated.persistentSessionScrollback": 10000,
@@ -267,7 +266,8 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "editor.smoothScrolling": false,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
-  "workbench.preferredLightColorTheme": "__vs",
+  "workbench.preferredLightColorTheme": "Cursor Light",
   "window.commandCenter": true,
-  "mdb.mcp.server": "enabled"
+  "mdb.mcp.server": "prompt",
+  "workbench.preferredDarkColorTheme": "Cursor Dark Midnight"
 }

@@ -234,5 +234,37 @@
     "key": "cmd+shift+s",
     "command": "workbench.action.debug.stop",
     "when": "inDebugMode && vim.mode != 'insert'"
+  },
+  {
+    "key": "ctrl+home",
+    "command": "-extension.vim_ctrl+home"
+  },
+  {
+    "key": "ctrl+end",
+    "command": "-extension.vim_ctrl+end"
+  },
+  {
+    "key": "ctrl+pageup",
+    "command": "-extension.vim_ctrl+pageup"
+  },
+  {
+    "key": "ctrl+pagedown",
+    "command": "-extension.vim_ctrl+pagedown"
+  },
+  {
+    "key": "home",
+    "command": "-extension.vim_home"
+  },
+  {
+    "key": "end",
+    "command": "-extension.vim_end"
+  },
+  {
+    "key": "pageup",
+    "command": "-extension.vim_pageup"
+  },
+  {
+    "key": "pagedown",
+    "command": "-extension.vim_pagedown"
   }
 ]
