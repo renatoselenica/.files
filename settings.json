@@ -266,8 +266,10 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "editor.smoothScrolling": false,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
-  "workbench.preferredLightColorTheme": "Cursor Light",
+  "workbench.preferredLightColorTheme": "Atom One Light",
   "window.commandCenter": true,
   "mdb.mcp.server": "prompt",
+  "git.blame.statusBarItem.enabled": true,
+  "git.blame.editorDecoration.enabled": false,
   "workbench.preferredDarkColorTheme": "Cursor Dark Midnight"
 }
