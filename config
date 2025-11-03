@@ -1,4 +1,4 @@
-theme = dark:Ghostty Default Style Dark ,light:Material
+theme = dark:Dark+ ,light:Material
 macos-option-as-alt = left
 macos-non-native-fullscreen = true
 scrollback-limit = 1000000

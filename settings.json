@@ -218,7 +218,7 @@
   "workbench.editor.tabActionCloseVisibility": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.occurrencesHighlight": "multiFile",
-  "workbench.editor.editorActionsLocation": "titleBar",
+  "workbench.editor.editorActionsLocation": "hidden",
   "editor.inlayHints.enabled": "offUnlessPressed",
   "typescript.locale": "en",
   "editor.semanticHighlighting.enabled": false,
@@ -266,10 +266,10 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "editor.smoothScrolling": false,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
-  "workbench.preferredLightColorTheme": "Atom One Light",
+  "workbench.preferredLightColorTheme": "Cursor Light",
   "window.commandCenter": true,
   "mdb.mcp.server": "prompt",
   "git.blame.statusBarItem.enabled": true,
   "git.blame.editorDecoration.enabled": false,
-  "workbench.preferredDarkColorTheme": "Cursor Dark Midnight"
+  "workbench.layoutControl.enabled": false
 }

@@ -78,9 +78,9 @@ dotfiles_dir="$HOME/.dotfiles"
 ln -sf $dotfiles_dir/.zshrc $HOME/.zshrc
 ln -sf $dotfiles_dir/.gitconfig $HOME/.gitconfig
 ln -sf $dotfiles_dir/config $HOME/.config/ghostty/config
-ln -sf $dotfiles_dir/vscode/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
-ln -sf $dotfiles_dir/vscode/keybindings.json $HOME/Library/Application\ Support/Code/User/keybindings.json
-ln -sf $dotfiles_dir/vscode/settings.json $HOME/Library/Application\ Support/Cursor/User/settings.json
-ln -sf $dotfiles_dir/vscode/keybindings.json $HOME/Library/Application\ Support/Cursor/User/keybindings.json
+ln -sf $dotfiles_dir/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
+ln -sf $dotfiles_dir/keybindings.json $HOME/Library/Application\ Support/Code/User/keybindings.json
+ln -sf $dotfiles_dir/settings.json $HOME/Library/Application\ Support/Cursor/User/settings.json
+ln -sf $dotfiles_dir/keybindings.json $HOME/Library/Application\ Support/Cursor/User/keybindings.json
 
 echo "Environment setup completed."
