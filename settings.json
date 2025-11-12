@@ -266,10 +266,14 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "editor.smoothScrolling": false,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
-  "workbench.preferredLightColorTheme": "Cursor Light",
+  "workbench.preferredLightColorTheme": "Tokyo Night Light",
   "window.commandCenter": true,
   "mdb.mcp.server": "prompt",
   "git.blame.statusBarItem.enabled": true,
   "git.blame.editorDecoration.enabled": false,
-  "workbench.layoutControl.enabled": false
+  "workbench.layoutControl.enabled": false,
+  "workbench.preferredDarkColorTheme": "Default Dark Modern",
+  "debug.focusEditorOnBreak": false,
+  "debug.openDebug": "neverOpen",
+  "debug.inlineValues": "on"
 }

@@ -174,7 +174,7 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "ctrl+f",
+    "key": "cmd+f",
     "command": "workbench.action.quickTextSearch",
     "when": "editorTextFocus"
   },
