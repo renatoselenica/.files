@@ -14,7 +14,7 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.cursorBlinking": "solid",
   "editor.colorDecorators": true,
-  // "workbench.sideBar.location": "right",
+  "workbench.sideBar.location": "right",
   "editor.renderWhitespace": "none",
   "extensions.ignoreRecommendations": false,
   "files.exclude": {
@@ -222,13 +222,10 @@
   "editor.inlayHints.enabled": "offUnlessPressed",
   "typescript.locale": "en",
   "editor.semanticHighlighting.enabled": false,
-  // "window.titleBarStyle": "native",
   "window.nativeTabs": false,
-  // "files.autoSave": "afterDelay",
   "go.toolsManagement.autoUpdate": true,
   "zenMode.showTabs": "none",
   "zenMode.hideLineNumbers": false,
-  // "editor.inlineSuggest.suppressSuggestions": true,
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
     "*.ts": "${capture}.js, ${capture}.typegen.ts",
@@ -240,8 +237,6 @@
     "*.mts": "${capture}.typegen.ts",
     "*.cts": "${capture}.typegen.ts"
   },
-  // "workbench.editor.showTabs": "none",
-  // "workbench.statusBar.visible": false,
   "workbench.startupEditor": "none",
   "workbench.activityBar.location": "top",
   "workbench.editor.tabSizing": "shrink",
@@ -250,7 +245,6 @@
   "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
   "lldb.launch.expressions": "native",
   "workbench.editor.showTabs": "none",
-  "chat.commandCenter.enabled": false,
   "terminal.integrated.enablePersistentSessions": true,
   "terminal.integrated.persistentSessionReviveProcess": "onExit",
   "terminal.integrated.persistentSessionScrollback": 10000,
@@ -268,12 +262,12 @@
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.preferredLightColorTheme": "Tokyo Night Light",
   "window.commandCenter": true,
-  "mdb.mcp.server": "prompt",
   "git.blame.statusBarItem.enabled": true,
   "git.blame.editorDecoration.enabled": false,
   "workbench.layoutControl.enabled": false,
   "workbench.preferredDarkColorTheme": "Default Dark Modern",
   "debug.focusEditorOnBreak": false,
   "debug.openDebug": "neverOpen",
-  "debug.inlineValues": "on"
+  "debug.inlineValues": "on",
+  "chat.disableAIFeatures": true
 }

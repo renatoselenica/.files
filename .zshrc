@@ -23,6 +23,7 @@ export JAVA_HOME="/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home
 
 export PATH=$PATH:$HOME/go/bin
 export PATH=$PATH:/sbin
+export PATH="$HOME/.local/bin:$PATH"
 export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 # MacPorts equivalent:
 # export PATH="/opt/local/lib/mysql8/bin:$PATH"
@@ -83,11 +84,4 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
-export PATH="$HOME/.local/bin:$PATH"
 
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/Users/renatoselenica/.lmstudio/bin"
-# End of LM Studio CLI section
-
-# Added by Windsurf
-export PATH="/Users/renatoselenica/.codeium/windsurf/bin:$PATH"
