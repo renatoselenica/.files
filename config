@@ -1,6 +1,0 @@
-theme = dark:Dark+ ,light:Material
-macos-option-as-alt = left
-macos-non-native-fullscreen = true
-scrollback-limit = 1000000
-keybind = super+r=reload_config
-window-save-state = always
