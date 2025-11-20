@@ -20,7 +20,8 @@ brew_packages=(
     "tree"
     "jq"
     "lazygit",
-    "lazydocker"
+    "lazydocker",
+    "reattach-to-user-namespace"
 )
 
 for package in "${brew_packages[@]}"; do
@@ -48,7 +49,8 @@ done
 #     "tree"
 #     "jq"
 #     "lazygit"
-#     "lazydocker"
+#     "lazydocker",
+#     "tmux-pasteboard"
 # )
 #
 # for package in "${macports_packages[@]}"; do
@@ -77,7 +79,7 @@ dotfiles_dir="$HOME/.dotfiles"
 # Create symlinks
 ln -sf $dotfiles_dir/.zshrc $HOME/.zshrc
 ln -sf $dotfiles_dir/.gitconfig $HOME/.gitconfig
-ln -sf $dotfiles_dir/config $HOME/.config/ghostty/config
+ln -sf $dotfiles_dir/.tmux.conf $HOME/.tmux.conf
 ln -sf $dotfiles_dir/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
 ln -sf $dotfiles_dir/keybindings.json $HOME/Library/Application\ Support/Code/User/keybindings.json
 
