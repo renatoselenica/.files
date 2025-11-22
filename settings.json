@@ -269,5 +269,11 @@
   "debug.focusEditorOnBreak": false,
   "debug.openDebug": "neverOpen",
   "debug.inlineValues": "on",
-  "chat.disableAIFeatures": true
+  "chat.disableAIFeatures": true,
+  "roo-cline.allowedCommands": [
+    "git log",
+    "git diff",
+    "git show"
+  ],
+  "roo-cline.deniedCommands": []
 }

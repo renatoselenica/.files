@@ -13,10 +13,11 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 export ANDROID_HOME=$HOME/Library/Android/sdk
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
+export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk"
+export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$PATH"
+export PATH="$ANDROID_HOME/platform-tools:$PATH"
+export PATH="$ANDROID_HOME/emulator:$PATH"
+export PATH="$ANDROID_HOME/build-tools/36.0.0:$PATH"
 export JAVA_HOME="/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home"
 # MacPorts equivalent:
 # export JAVA_HOME="/opt/local/Library/Java/JavaVirtualMachines/openjdk17/Contents/Home"
