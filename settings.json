@@ -261,7 +261,7 @@
   "editor.smoothScrolling": false,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.preferredLightColorTheme": "Tokyo Night Light",
-  "window.commandCenter": true,
+  "window.commandCenter": false,
   "git.blame.statusBarItem.enabled": true,
   "git.blame.editorDecoration.enabled": false,
   "workbench.layoutControl.enabled": false,
@@ -270,10 +270,5 @@
   "debug.openDebug": "neverOpen",
   "debug.inlineValues": "on",
   "chat.disableAIFeatures": true,
-  "roo-cline.allowedCommands": [
-    "git log",
-    "git diff",
-    "git show"
-  ],
-  "roo-cline.deniedCommands": []
+  "workbench.navigationControl.enabled": false
 }
