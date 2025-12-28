@@ -19,18 +19,12 @@ export PATH="$ANDROID_HOME/platform-tools:$PATH"
 export PATH="$ANDROID_HOME/emulator:$PATH"
 export PATH="$ANDROID_HOME/build-tools/36.0.0:$PATH"
 export JAVA_HOME="/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home"
-# MacPorts equivalent:
-# export JAVA_HOME="/opt/local/Library/Java/JavaVirtualMachines/openjdk17/Contents/Home"
 
 export PATH=$PATH:$HOME/go/bin
 export PATH=$PATH:/sbin
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
-# MacPorts equivalent:
-# export PATH="/opt/local/lib/mysql8/bin:$PATH"
 export PATH=$PATH:/usr/sbin:/usr/local/bin
-# MacPorts equivalents (add to beginning of PATH):
-# export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 # aliases
 alias lg=lazygit
 alias ld=lazydocker
@@ -70,8 +64,6 @@ export EDITOR="code --wait"
 export EXPO_TARGET="iPhone 15"
 eval "$(fnm env --use-on-cd --shell zsh)"
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
-# MacPorts equivalent:
-# export PATH="/opt/local/lib/postgresql16/bin:$PATH"
 # The following lines have been added by Docker Desktop to enable Docker CLI completions.
 fpath=(/Users/renatoselenica/.docker/completions $fpath)
 autoload -Uz compinit

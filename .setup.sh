@@ -28,35 +28,6 @@ for package in "${brew_packages[@]}"; do
     brew install $package
 done
 
-# MacPorts alternative (commented out):
-# # Check if MacPorts is installed, if not, install it manually
-# if ! command -v port &> /dev/null
-# then
-#     echo "MacPorts not found. Please install MacPorts manually from https://www.macports.org/install.php"
-#     exit 1
-# fi
-#
-# # Update MacPorts
-# sudo port -v selfupdate
-#
-# # Install packages available through MacPorts
-# macports_packages=(
-#     "git-delta"
-#     "fzf"
-#     "ripgrep"
-#     "bat"
-#     "fd"
-#     "tree"
-#     "jq"
-#     "lazygit"
-#     "lazydocker",
-#     "tmux-pasteboard"
-# )
-#
-# for package in "${macports_packages[@]}"; do
-#     sudo port install $package
-# done
-
 # Install Oh My Zsh
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

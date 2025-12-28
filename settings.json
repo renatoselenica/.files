@@ -270,5 +270,11 @@
   "debug.openDebug": "neverOpen",
   "debug.inlineValues": "on",
   "chat.disableAIFeatures": true,
-  "workbench.navigationControl.enabled": false
+  "workbench.navigationControl.enabled": false,
+  "roo-cline.allowedCommands": [
+    "git log",
+    "git diff",
+    "git show"
+  ],
+  "roo-cline.deniedCommands": []
 }
